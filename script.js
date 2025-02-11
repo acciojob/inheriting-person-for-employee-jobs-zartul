@@ -8,7 +8,7 @@ class Person {
 		console.log(`Hello, my name is ${this.name} and I am ${this.age} years old.`);
 	}
 }
-class Employee extends Person{
+class Employee extends Person(){
 	 constructor (name, age, jobTitle) {
 		 super(name,age);
 		this.jobTitle=jobTitle;
