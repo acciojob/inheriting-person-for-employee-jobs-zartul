@@ -1,5 +1,5 @@
 // complete this js code
-class Person() {
+class Person {
 	constructor (name, age){
 		this.name=name;
 		this.age=age;
